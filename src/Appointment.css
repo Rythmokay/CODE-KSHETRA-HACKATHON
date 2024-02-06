@@ -1,0 +1,103 @@
+#button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
+    overflow: hidden;
+    position: relative;
+}
+
+#button::after {
+
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #0050d5;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+
+
+
+
+
+    transition: all linear 0.5s;
+    z-index: -1;
+}
+
+#button:hover::after {
+    /* width: 100%; */
+    transform: translate(-50%, -50%) scale(5);
+
+
+
+}
+
+#button:hover {
+    color: white;
+    border: 2px solid #0050d5;
+
+}
+
+#button1 {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
+    overflow: hidden;
+    position: relative;
+    left: 40px;
+}
+
+#button1::after {
+
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #0050d5;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+
+
+
+
+
+    transition: all linear 0.5s;
+    z-index: -1;
+}
+
+#button1:hover::after {
+    /* width: 100%; */
+    transform: translate(-50%, -50%) scale(7);
+
+
+
+}
+
+#button1:hover {
+    color: white;
+    border: 2px solid #0050d5;
+
+}
+#vakavaka{
+    height: 70vh;
+    margin-top: 17vh;
+    font-size: large;
+}
+#containerappointment{
+    font: 75px;
+    margin-left: 80px;
+}
